@@ -1,0 +1,23 @@
+{
+  "documents": [
+    {
+      "id": "testing_docs",
+      "title": "Test Document",
+      "content": "Testing Documnent creation",
+      "ownerId": "U001",
+      "mimeType": "application/vnd.google-apps.document",
+      "modifiedTime": "2025-10-10T16:10:00.000+0200",
+      "sharedWith": ["U001", "U002", "*"]
+    }
+  ],
+  "users": [
+    {
+      "id": "U001",
+      "email": "alisher.k@toloka.ai"
+    },
+    {
+      "id": "U002",
+      "email": "denis.b@toloka.ai"
+    }
+  ]
+}

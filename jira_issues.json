@@ -1,0 +1,22 @@
+[
+  {
+    "key": "VCEB-01",
+    "summary": "Testing Our Jira",
+    "status": "Done",
+    "description": null,
+    "assignee": "Denis Belousov",
+    "reporter": "Denis Belousov",
+    "type": "Task",
+    "priority": "Low",
+    "created_at": "2025-10-10T06:02:58.925+0200",
+    "updated_at": "2025-10-10T15:47:54.405+0200",
+    "epic_link": null,
+    "comments": [
+      {
+        "author": "Denis Belousov",
+        "body": "Comments are functioning",
+        "created_at": "2025-10-10T15:47:54.257+0200"
+      }
+    ]
+  }
+]

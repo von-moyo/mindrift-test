@@ -1,0 +1,57 @@
+{
+  "messages": [
+    {
+      "id": "msg_001",
+      "channel_id": "C08TS27KL2A",
+      "user_id": "U091BL846KC",
+      "text": "Hi everyone! \nLooking forward to working with you all on this project.",
+      "ts": "1729423260.123456"
+    },
+    {
+      "id": "msg_002",
+      "channel_id": "C08TS27KL2A",
+      "user_id": "U092B5XU82Z",
+      "text": "Hello! Excited to be here and collaborate with the team.",
+      "ts": "1729423380.234567"
+    },
+    {
+      "id": "msg_003",
+      "channel_id": "C08TS27KL2A",
+      "user_id": "U09146SQVQT",
+      "text": "Hi team! Ready to get started",
+      "ts": "1729423440.345678"
+    }
+  ],
+  "channels": [
+    {
+      "id": "C08TS27KL2A",
+      "name": "project-shoplaunch",
+      "is_private": false,
+      "members": [
+        "U091BL846KC",
+        "U092B5XU82Z",
+        "U09146SQVQT"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "U091BL846KC",
+      "name": "denis.b",
+      "real_name": "Denis Belousov",
+      "email": "denis.b@toloka.ai"
+    },
+    {
+      "id": "U092B5XU82Z",
+      "name": "mardon.z",
+      "real_name": "Mardon Zarifjonov",
+      "email": "mardon.z@toloka.ai"
+    },
+    {
+      "id": "U09146SQVQT",
+      "name": "alisher.k",
+      "real_name": "Alisher Kalykov",
+      "email": "alisher.k@toloka.ai"
+    }
+  ]
+}
