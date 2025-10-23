@@ -20,6 +20,27 @@
       "user_id": "U09146SQVQT",
       "text": "Hi team! Ready to get started",
       "ts": "1729423440.345678"
+    },
+    {
+      "id": "msg_004",
+      "channel_id": "C08TS27KL2A",
+      "user_id": "U09146SQVQT",
+      "text": "Kicking off SL-001: Backend env, DB, logging, gateway. I’ll scaffold Edge/BFF, Commerce, Ops, and wire Alembic.",
+      "ts": "1761204000.000001"
+    },
+    {
+      "id": "msg_005",
+      "channel_id": "C08TS27KL2A",
+      "user_id": "U091BL846KC",
+      "text": "Please keep all decisions in docs.json and link the Jira. Acceptance: /health endpoints, request ID middleware, rotating file logs, and alembic upgrade/downgrade must pass.",
+      "ts": "1761204060.000001"
+    },
+    {
+      "id": "msg_006",
+      "channel_id": "C08TS27KL2A",
+      "user_id": "U092B5XU82Z",
+      "text": "Confirming Edge routes: /api/auth|catalog|cart|orders|stock -> Commerce; /api/analytics|notifications -> Ops.",
+      "ts": "1761204120.000001"
     }
   ],
   "channels": [
