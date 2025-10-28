@@ -1,0 +1,6 @@
+2025-10-23T08:42:37+0100 level=INFO service=edge_bff request_id=fd5586ec-76eb-4635-b807-d4ff7308b838 request completed path=/health method=GET status=200 duration_ms=0
+2025-10-23T08:42:37+0100 level=INFO service=edge_bff request_id=9678516a-27e6-486e-bd58-49639b185dfb request completed path=/metrics method=GET status=200 duration_ms=0
+2025-10-23T08:42:37+0100 level=INFO service=edge_bff request_id=- HTTP Request: GET http://localhost:8001/catalog/ "HTTP/1.1 200 OK"
+2025-10-23T08:42:37+0100 level=INFO service=edge_bff request_id=34f64f2f-a111-45fb-ac8b-cf3750c62fc6 request completed path=/api/catalog/ method=GET status=200 duration_ms=60
+2025-10-23T08:42:37+0100 level=INFO service=edge_bff request_id=- HTTP Request: GET http://localhost:8002/notifications/ "HTTP/1.1 200 OK"
+2025-10-23T08:42:37+0100 level=INFO service=edge_bff request_id=f2aa0fde-fe3f-4f3a-85a2-3507fd44dd95 request completed path=/api/notifications/ method=GET status=200 duration_ms=6

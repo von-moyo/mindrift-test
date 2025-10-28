@@ -8,6 +8,15 @@
       "mimeType": "application/vnd.google-apps.document",
       "modifiedTime": "2025-10-10T16:10:00.000+0200",
       "sharedWith": ["U001", "U002", "*"]
+    },
+    {
+      "id": "sl-001-architecture-overview",
+      "title": "ShopLaunch Backend Architecture & Design Spec (SL-001)",
+      "content": "Overview: Three FastAPI services (Edge/BFF, Commerce, Ops). Edge exposes /api/* and proxies to downstream services using httpx. Commerce handles auth, catalog, cart, orders, stock with SQLite (commerce.db). Ops handles analytics and notifications with SQLite (ops.db). Each service provides /health and structured logging with request IDs, plus basic metrics (request count, duration). Alembic is configured per service with initial empty migration.\n\nComponents:\n- Edge/BFF: CORS, auth validation (stub), request_id, logging, metrics middleware; websocket hub at /ws; routes /api/auth|catalog|cart|orders|stock -> Commerce; /api/analytics|notifications -> Ops.\n- Commerce: db/session.py sets SQLAlchemy engine + SessionLocal; API routers stubs for auth, catalog, cart, orders, stock.\n- Ops: db/session.py and API routers stubs for analytics, notifications.\n\nConfig:\n- .env per service (LOG_LEVEL, PORT, DB URLs, downstream base URLs).\n- Logging: console + rotating file under logs/<service>.log.\n\nTesting:\n- Pytest for DB connect/query and Alembic upgrade/downgrade (temporary SQLite).\n\nHow to run: See backend/SETUP.md for venv, install, and uvicorn commands.",
+      "ownerId": "U001",
+      "mimeType": "text/plain",
+      "modifiedTime": "2025-10-23T10:00:00.000+0000",
+      "sharedWith": ["*"]
     }
   ],
   "users": [
